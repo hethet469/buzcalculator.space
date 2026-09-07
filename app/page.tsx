@@ -29,7 +29,8 @@ export default function Page() {
   return (
     <main className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-sm bg-white rounded-xl shadow-lg p-6 border border-slate-200">
-        <h1 className="text-xl font-bold text-center mb-4 text-slate-800">Business Calculator</h1>
+       <img src="https://i.postimg.cc/vT3WY9ZC/512-x-512-px.png" alt="Business Calculator Logo" className="size-8 object-contain" />
+ <h1 className="text-xl font-bold text-center mb-4 text-slate-800">Business Calculator</h1>
         <div className="w-full h-16 bg-slate-100 rounded-lg mb-4 flex items-center justify-end px-4 text-2xl font-mono text-slate-800 overflow-x-auto border border-slate-300">
           {input || "0"}
         </div>
